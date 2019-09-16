@@ -1,0 +1,10 @@
+{
+    "name": "SHOP API v1",
+    "version": "0.1.0",
+    "description": "API for online store",
+    "apidoc": {
+        "title": "Shop ApiDoc",
+    "url" : "https://shop-api-doc.herokuapp.com/"
+    }
+  }
+  
