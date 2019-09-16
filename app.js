@@ -4,6 +4,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const path = require('path');
 
 const stuffRoutes = require('./routes/stuff');
 const userRoutes = require('./routes/user');
@@ -28,6 +29,8 @@ app.use((req, res, next) => {
 
   app.use(bodyParser.json());
 
+  app.use('/images', express.static(path.join(__dirname, 'images')));
+  
   app.use('/api/stuff', stuffRoutes);
   app.use('/api/auth', userRoutes);
 
