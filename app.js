@@ -29,6 +29,9 @@ app.use((req, res, next) => {
 
   app.use(bodyParser.json());
 
+    // Serving static files from "public" folder
+    app.use(express.static('public'));
+
   app.use('/images', express.static(path.join(__dirname, 'images')));
   
   app.use('/api/stuff', stuffRoutes);

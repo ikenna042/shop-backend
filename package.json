@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development --watch",
-    "build": "npm run webpack --config webpack.config.js"
+    "build": "npm run webpack --config webpack.config.js",
+    "doc": "apidoc -o public/apidoc",
+    "mydoc": "apidoc -o public"
   },
   "author": "",
   "license": "ISC",

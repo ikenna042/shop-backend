@@ -25,7 +25,7 @@ define({ "api": [
           {
             "group": "Parameter",
             "type": "String",
-            "optional": true,
+            "optional": false,
             "field": "email",
             "description": "<p>Email of the example (required)</p>"
           },
@@ -48,7 +48,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./src/api/routes/user.js",
+    "filename": "./routes/user.js",
     "groupTitle": "Example",
     "error": {
       "fields": {
@@ -168,7 +168,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "./src/api/routes/stuff.js",
+    "filename": "./routes/stuff.js",
     "groupTitle": "Thing"
   },
   {
@@ -234,7 +234,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "./src/api/routes/stuff.js",
+    "filename": "./routes/stuff.js",
     "groupTitle": "Thing"
   },
   {
@@ -319,7 +319,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "./src/api/routes/stuff.js",
+    "filename": "./routes/stuff.js",
     "groupTitle": "Thing"
   },
   {
@@ -404,7 +404,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "./src/api/routes/stuff.js",
+    "filename": "./routes/stuff.js",
     "groupTitle": "Thing"
   },
   {
@@ -506,7 +506,7 @@ define({ "api": [
       }
     },
     "version": "0.0.0",
-    "filename": "./src/api/routes/stuff.js",
+    "filename": "./routes/stuff.js",
     "groupTitle": "Thing"
   },
   {
@@ -570,7 +570,7 @@ define({ "api": [
       ]
     },
     "description": "<p>This holds all record of users.</p>",
-    "filename": "./src/api/routes/user.js",
+    "filename": "./routes/user.js",
     "groupTitle": "User",
     "error": {
       "fields": {
@@ -724,7 +724,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./src/api/routes/user.js",
+    "filename": "./routes/user.js",
     "groupTitle": "User",
     "error": {
       "fields": {

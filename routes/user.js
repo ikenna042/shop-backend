@@ -48,7 +48,7 @@ router.post('/login', userCtrl.login);
  * @apiName LoginExample
  * @apiGroup Example
  * @apiHeader {String} Authorization Bearer token
- * @apiParam {String} [email] Email of the example (required)
+ * @apiParam {String} email Email of the example (required)
  * @apiParam {String} [password] Password of the example (required)
  * @apiSuccessExample Success-Response:
  *      HTTP/1.1 201 OK
